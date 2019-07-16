@@ -1,0 +1,18 @@
+https://pythonacademy.com.br/blog/python-e-virtualenv-como-programar-em-ambientes-virtuais
+
+Iniciando
+
+cd /path/para/seus/projetos/
+- virtualenv --python='/usr/local/bin/python3' NOMEPASTA
+
+Ativando
+Neste momento, você desejará instalar aplicativos e outras bibliotecas para seu projeto. Para tal, você deve ativar o Virtualenv, execute:
+
+cd /path/para/seus/projetos/foo
+- source bin/activate
+
+Desativando
+- deactivate
+
+pip install -r requirements.txt
+
